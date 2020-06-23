@@ -68,7 +68,7 @@ gulp.task("sass", async () => {
  * */
 gulp.task('watch', async () => {
     gulp.watch(src + 'js/*.js', gulp.parallel('core-js'));
-    gulp.watch(src + 'js/independent/*.js', gulp.parallel('independent-js'));
+    gulp.watch(src + 'js/individual/*.js', gulp.parallel('individual-js'));
     gulp.watch(src + 'scss/*.scss', gulp.parallel('sass'));
 });
 
